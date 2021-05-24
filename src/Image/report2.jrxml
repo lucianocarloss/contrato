@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3acacd41-ebe5-4e91-8906-f3a45f239127">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="1018"/>
+	<background>
+		<band height="802" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="324" width="555" height="346" uuid="44336faf-2360-4643-9c66-11991ee0ee4e"/>
+				<imageExpression><![CDATA["C:\\Users\\Engenharia03\\Downloads\\luciano\\Contrato\\src\\Image\\mdagua.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="63" splitType="Stretch">
+			<image>
+				<reportElement x="11" y="13" width="130" height="43" uuid="78ac6988-da11-4497-992c-1040a1031e3b"/>
+				<imageExpression><![CDATA["C:\\Users\\Engenharia03\\Downloads\\luciano\\Contrato\\src\\Image\\lidea.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="426" splitType="Stretch">
+			<staticText>
+				<reportElement x="110" y="0" width="326" height="20" uuid="ff7ef190-b85e-49b3-b57c-db0f08542d61"/>
+				<textElement markup="none"/>
+				<text><![CDATA[CONTRATO DE PRESTAÇÃO DE SERVIÇOS E OUTRAS AVENÇAS]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
